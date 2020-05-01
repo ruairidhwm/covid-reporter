@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Determine npm bin directory
+BIN=`npm bin`
+
+# Verify commit message with commitlint
+if $BIN/commitlint -v > /dev/null 2>&1 
+then
+	$BIN/commitlint < $1
+	exit
+else
+	echo "Please install commitlint"
+fi
+
+exit 1
