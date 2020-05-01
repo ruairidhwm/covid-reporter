@@ -1,5 +1,5 @@
 <p align="center">
-  Covid-19 API
+  <img alt="COVID-Reporter API Logo" src="https://i.imgur.com/nFgwZy3.png">
 </p>
 
 # Introduction
@@ -7,6 +7,12 @@
 This is an API designed for use to help coordinate localised reporting of COVID-symptoms, and allow people to request help if they are self-isolating.
 
 ## Getting Started
+
+### Database Setup
+
+Add a local postgres database, and add your credentials to `ormconfig.json`.
+
+### Running the API
 
 Run:
 
